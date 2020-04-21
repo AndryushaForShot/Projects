@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 1700px;
+  
 }
 
 .container {
@@ -32,6 +33,15 @@ body {
 .page-header a {
   margin-left: 56px;
   color: #288be6;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+  transition: color 0.10s linear;
+
+}
+.page-header a:hover {
+  margin-left: 56px;
+  color: #1769EA;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -173,6 +183,18 @@ body {
   border-radius: 4px;
   background-color: #288be6;
   color: #ffffff;
+  transition: background-color 0.10s linear;
+
+}
+.button:hover {
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #28A5E6;
+  color: #ffffff;
 }
 
 .page-footer {
@@ -184,6 +206,14 @@ body {
 .page-footer a {
   /*margin-left: 56px;*/
   color: inherit;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+  transition: color 0.10s linear;
+}
+.page-footer a:hover {
+  /*margin-left: 56px;*/
+  color: #ACACAC;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
